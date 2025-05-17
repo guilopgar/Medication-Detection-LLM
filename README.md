@@ -25,7 +25,7 @@ We release two fine-tuned models based on the Flan-T5 architecture:
 
 | Model          | BioCreative VII (Strict F1) | SMM4H'20 F1 | SMM4H'18 F1 |
 | -------------- | --------------------------- | ----------- | ----------- |
-| Flan-T5-Large  | 80.4% (with lexicon)        | **86.1%**   | 95.7%       |
+| Flan-T5-Large  | 80.4% (with lexicon)        | **86.1%**   | 96.2%       |
 | Flan-T5-XL     | **80.9% (with lexicon)**    | 84.4%       | **96.7%**   |
 | SOTA Baselines | 80.4%                       | 85.4%       | 95.4%       |
 
