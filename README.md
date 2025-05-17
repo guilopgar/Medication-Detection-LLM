@@ -59,7 +59,7 @@ model_name = "guilopgar/flan-t5-large-medication-ner"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
-text = "Bedtime snack, benadryl, New Girl, and acetaminophen. The party is getting real."
+text = "Benadryl, bedtime snack, and New Girl. The party is getting real."
 prompt = f"You are given a tweet followed by a specific question asking about the content of the tweet. Your objective is to identify and list any drug names, medications, or dietary supplements mentioned in the tweet. If one or more are mentioned, list each distinctly, separated by a comma. If none are mentioned, return an empty list [].\nInput: Tweet: {text}\nQuestion: What are the drugs, medications or dietary supplements mentioned in the tweet?\nOutput:"
 
 inputs = tokenizer(prompt, return_tensors="pt")
