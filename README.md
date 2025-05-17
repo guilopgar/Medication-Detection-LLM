@@ -31,7 +31,7 @@ We release two fine-tuned models based on the Flan-T5 architecture:
 
 * Flan-T5-XL with lexicon filtering achieved the highest F1-score of **80.9%** on the BioCreative VII Shared Task 3 test set, surpassing the official SOTA system.
 * On the highly imbalanced SMM4H’20 dataset, Flan-T5-Large achieved the highest F1-score of **86.1%**.
-* On the balanced SMM4H’18 dataset, Flan-T5-XL achieved an F1-score of **96.7%**, outperforming all baselines.
+* On the balanced SMM4H’18 dataset, Flan-T5-XL achieved an F1-score of **96.7%**, outperforming all SOTA baselines.
 
 ---
 
