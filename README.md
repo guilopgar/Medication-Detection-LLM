@@ -35,21 +35,6 @@ We release two fine-tuned models based on the Flan-T5 architecture:
 
 ---
 
-## 📚 Citation
-
-If you use these models in your research, please cite our work:
-
-```bibtex
-@misc{MEDRXIV/2025/327791,
-  author = {Lopez-Garcia, Guillermo and Xu, Dongfang and Gonzalez-Hernandez, Graciela},
-  title = {Detecting Medication Mentions in Social Media Data Using Large Language Models},
-  publisher = {medRxiv},
-  year = {2025}
-}
-```
-
----
-
 ## 📥 How to Use
 
 ```python
@@ -69,6 +54,15 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 ---
 
-## 📧 Contact
+## 📚 Citation
 
-For questions or feedback, feel free to reach out via [GitHub Issues](https://github.com/guilopgar/Medication-Detection-LLM/issues) or contact the authors directly.
+If you use these models in your research, please cite our work:
+
+```bibtex
+@misc{MEDRXIV/2025/327791,
+  author = {Lopez-Garcia, Guillermo and Xu, Dongfang and Gonzalez-Hernandez, Graciela},
+  title = {Detecting Medication Mentions in Social Media Data Using Large Language Models},
+  publisher = {medRxiv},
+  year = {2025}
+}
+```
