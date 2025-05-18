@@ -61,13 +61,13 @@ To reproduce the results obtained in the paper, as well as to facilitate large-s
 ```bash
 python inference/predict.py \
     --model_name guilopgar/flan-t5-large-medication-ner \
-    --data_path data/sample_tweets.csv \
+    --input_csv data/sample_tweets.csv \
     --lexicon_path data/lexicon.pkl \
     --output_path data/sample_tweets_predictions.csv
 ```
 
 * `--model_name`: Hugging Face model name or local path to the fine-tuned model.
-* `--data_path`: Path to a CSV file containing the tweets.
+* `--input_csv`: Path to a CSV file containing the tweets.
 * `--lexicon_path` *(optional)*: Path to a lexicon `.pkl` file for postprocessing (token-based filtering to improve precision).
 * `--output_path`: Path to save the predictions CSV file.
 
