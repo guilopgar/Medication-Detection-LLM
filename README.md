@@ -85,10 +85,13 @@ python inference/predict.py \
 If you use these models in your research, please cite our work:
 
 ```bibtex
-@misc{MEDRXIV/2025/327791,
-  author = {Lopez-Garcia, Guillermo and Xu, Dongfang and Gonzalez-Hernandez, Graciela},
-  title = {Detecting Medication Mentions in Social Media Data Using Large Language Models},
-  publisher = {medRxiv},
-  year = {2025}
+@article{Lopez-Garcia2025.05.16.25327791,
+	author = {Lopez-Garcia, Guillermo and Xu, Dongfang and Gonzalez-Hernandez, Graciela},
+	title = {Detecting Medication Mentions in Social Media Data Using Large Language Models},
+	year = {2025},
+	doi = {10.1101/2025.05.16.25327791},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	URL = {https://www.medrxiv.org/content/early/2025/05/18/2025.05.16.25327791},
+	journal = {medRxiv}
 }
 ```
